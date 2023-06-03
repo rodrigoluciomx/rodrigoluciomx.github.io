@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-          <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-      <main>
-        <section id="inicio">
-          <h2>¡Hola, soy Rodrigo Lucio!</h2>
-          <p>Bienvenido/a a mi portafolio personal.
-            Soy un apasionado desarrollador web especializado en front-end. Me encanta crear experiencias cautivadoras y funcionales en la web. Con interés en el web3 y el metaverso, busco constantemente innovar en el mundo digital.</p>
-          <img src="./img/foto_personal.png" alt="Rodrigo Lucio">
-        </section>
-    
-        <section id="proyectos">
-          <h2>Proyectos</h2>
-          <p>Aquí puedes encontrar algunos de los proyectos en los que he trabajado.</p>
-          <!-- Puedes agregar tus proyectos aquí -->
-        </section>
-    
-        <section id="habilidades">
-          <h2>Habilidades</h2>
-          <p>Estas son algunas de las habilidades que he desarrollado.</p>
-          <!-- Puedes agregar tus habilidades aquí -->
-        </section>
-    
-        <section id="experiencia">
-          <h2>Experiencia</h2>
-          <p>Aquí puedes encontrar información sobre mi experiencia laboral.</p>
-          <!-- Puedes agregar tu experiencia laboral aquí -->
-        </section>
-    
-        <section id="contacto">
-          <h2>Contacto</h2>
-          <p>Si deseas ponerte en contacto conmigo, no dudes en hacerlo.</p>
-          <!-- Puedes agregar tu información de contacto aquí -->
-        </section>
-      </main>
-    
-      <footer>
-        <p>&copy; 2023 Rodrigo Efren Lucio Cruz</p>
-      </footer>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li class="social-icons">
+            <a href="#"><img src="./img/github-icon.svg" alt="GitHub"></a>
+            <a href="#"><img src="./img/linkedin-icon.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <div class="container">
+          <div class="text">
+            <h2>Rodrigo Lucio</h2>
+            <p>
+              Bienvenido a mi portafolio personal. Soy un apasionado
+              desarrollador web especializado en front-end. Me encanta crear
+              experiencias cautivadoras y funcionales en la web. Con interés en
+              el web3 y el metaverso, busco constantemente innovar en el mundo
+              digital.
+            </p>
+          </div>
+          <div class="image">
+            <img src="./img/foto_personal.png" alt="Rodrigo Lucio" />
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>
+          Aquí puedes encontrar algunos de los proyectos en los que he
+          trabajado.
+        </p>
+        <!-- Puedes agregar tus proyectos aquí -->
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <p>Estas son algunas de las habilidades que he desarrollado.</p>
+        <!-- Puedes agregar tus habilidades aquí -->
+      </section>
+
+      <section id="experiencia">
+        <h2>Experiencia</h2>
+        <p>Aquí puedes encontrar información sobre mi experiencia laboral.</p>
+        <!-- Puedes agregar tu experiencia laboral aquí -->
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, no dudes en hacerlo.</p>
+        <!-- Puedes agregar tu información de contacto aquí -->
+      </section>
+    </main>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
